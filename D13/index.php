@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    <?php require('../header.php');?>
     <?php 
     $origArrayStr = htmlspecialchars($_POST['orig_array']);
     $origArray = explode(', ', $origArrayStr);
