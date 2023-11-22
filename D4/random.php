@@ -10,5 +10,5 @@ function generate_code(){
         $str .= substr($chars, rand(1, $numChars) - 1, 1);
     }
 
-    return implode('', $str)
+    return $str;
 }
